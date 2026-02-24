@@ -1,0 +1,44 @@
+{
+    "name": "metalpriceapi/metalpriceapi-php",
+    "description": "Official PHP wrapper for MetalpriceAPI.com - Metal price API and foreign exchange rate API",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://metalpriceapi.com",
+    "keywords": [
+        "metal",
+        "gold",
+        "silver",
+        "platinum",
+        "palladium",
+        "price",
+        "api",
+        "exchange",
+        "rates",
+        "forex"
+    ],
+    "authors": [
+        {
+            "name": "MetalpriceAPI",
+            "email": "contact@metalpriceapi.com",
+            "homepage": "https://metalpriceapi.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/metalpriceapi/metalpriceapi-php/issues",
+        "source": "https://github.com/metalpriceapi/metalpriceapi-php"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/metalpriceapi/metalpriceapi-php.git"
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MetalpriceAPI\\": "src/"
+        }
+    }
+}
